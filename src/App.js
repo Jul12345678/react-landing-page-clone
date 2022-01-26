@@ -36,13 +36,15 @@ const buttonStyle = css`
 `;
 const backgroundPic = css`
   z-index: -1;
-  fill: currentColor;
+  fill: black;
+  mix-blend-mode: overlay;
   position: absolute;
   width: 2149.9px;
-  height: 3000px;
+  height: 2660px;
   -webkit-transform: translateX(-15%);
   transform: translateX(-11.5%);
-  padding-top: -8200px;
+  padding-top: -200px;
+  background-size: cover;
 `;
 const pageTitle = css`
   position: absolute;
@@ -65,11 +67,31 @@ const text1 = css`
 `;
 
 const proofCard = css`
-  margin-top: 290px;
-  transform: rotate(-18deg);
-  margin-left: 450px;
+  margin-top: 285px;
+  transform: rotate(-17deg);
+  margin-left: 440px;
 `;
-const text2 = css``;
+const text2 = css`
+  color: white;
+  display: block;
+  text-align: left;
+  font-weight: 300;
+  padding-left: 950px;
+  margin-top: -295px;
+  font-size: 32px;
+`;
+const text3 = css`
+  color: #a5b4fc;
+  padding-left: 950px;
+  margin-top: -25px;
+`;
+const text4 = css`
+  box-sizing: border-box;
+  border: 0 solid;
+  margin: auto;
+  text-align: center;
+  margin-top: 235px;
+`;
 
 function App() {
   return (
@@ -95,6 +117,33 @@ function App() {
             </div>
             <div css={text2}>
               <h1>Proof Collective NFT</h1>
+            </div>
+            <div css={text3}>
+              <p>
+                To join, one must hold the PROOF Collective NFT. Membership
+                includes
+              </p>
+              <p>
+                access to our private Discord, early access to the PROOF
+                podcast, in-
+              </p>
+              <p>
+                person events, and other collaborations created exclusively for
+                PROOF
+              </p>
+              <p>Collective members.</p>
+            </div>
+            <div css={text4}>
+              <h1>Collective Intelligence</h1>
+              <p>
+                Our members were early collectors of some of the most
+                sought-after NFT projects.
+              </p>
+              <p>
+                We believe in group bottoms-up-driven research. A collective
+                working together is
+              </p>
+              <p>stronger than any single member.</p>
             </div>
           </nav>
         </section>
