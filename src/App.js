@@ -1,94 +1,77 @@
 /** @jsxImportSource @emotion/react */
 import './App.css';
 import { css } from '@emotion/react';
+import { ReactComponent as LogoIcon } from './images/bg.svg';
+import { ReactComponent as BrandIcon } from './images/brand.svg';
 
-const bodyColor = css`
-  // margin: auto 0px;
-  // width: auto;
-  height: 100vh;
-  background-color: black;
-`;
-
-const navigationStyle = css`
+const buttonStyle = css`
   position: absolute;
-  top: 35px;
-  right: 45px;
-  background-color: blue;
+  letter-spacing: 0.05em;
+  line-height: 1;
   text-transform: uppercase;
-  // border: none;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  padding: 10px 20px;
-  text-align: center;
-  // te/xt-decoration: none;
-  color: rgb(165 180 252 / var(--tw-text-opacity));
-
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 24px;
-  color: white;
   font-size: 0.875rem;
+  font-family: Poppins, sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 9999px;
+  gap: 0.75rem;
+  align-items: center;
+  display: flex;
+  text-decoration: inherit;
+  box-sizing: border-box;
+  border: 0 solid;
+  cursor: pointer;
+  font-weight: 300;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255);
+  top: 0;
+  right: 0;
+  border-radius: 2500px;
+  background-color: blue;
+  margin-top: 25px;
+  margin-right: 20px;
 `;
-
-const titleStyle1 = css`
+const backgroundPic = css`
+  z-index: -1;
+  fill: currentColor;
   position: relative;
-  top: 50px;
-  text-align: center;
-  font-family: serif;
-  font-size: 120px;
-  text-transform: uppercase;
-  background: linear-gradient(to right, #f2cfd0, #ebb4fd, #456aff);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-`;
-const titleStyle2 = css`
-  position: relative;
-  top: -95px;
-  text-align: center;
-  font-family: helvetica;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 40px;
-  padding-left: 29px;
-  background: linear-gradient(to right, #facde8, #e6b8ff, #9ca9ff);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-`;
-
-const text1 = css`
-  text-align: center;
-  padding-left: 0px;
-  padding-top: -200px;
-  line-height: 1rem;
-  font-size: 20px;
-  color: white;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1903.2px;
+  height: 970px;
+  box-sizing: border-box;
+  object-fit: cover;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-family: Inter, sans-serif;
+  margin: auto;
+  -webkit-transform: translateX(-15%);
+  transform: translateX(-15%);
+`;
+const pageTitle = css`
+  position: absolute;
+  width: -100%;
+  align-items: center;
 `;
 
 function App() {
   return (
-    <body css={bodyColor}>
+    <body>
       <div>
+        <div>
+          <BrandIcon css={pageTitle} />
+        </div>
         <section>
-          <nav css={navigationStyle}>
-            <a>Member Access</a>
+          <nav>
+            <div css={buttonStyle}>
+              <a>Member Access</a>
+            </div>
+            <div>
+              <LogoIcon css={backgroundPic} />
+            </div>
+            <div></div>
           </nav>
-          <nav css={titleStyle1}>
-            <h1>Proof</h1>
-          </nav>
-          <nav css={titleStyle2}>
-            <h2>Collective</h2>
-          </nav>
-          <div css={text1}>
-            <p>
-              A private members only collective of{' '}
-              <p>1,000 dedicated NFT collectors and artists.</p>
-            </p>
-          </div>
         </section>
       </div>
     </body>
