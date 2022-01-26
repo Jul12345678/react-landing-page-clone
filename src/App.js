@@ -38,14 +38,29 @@ const backgroundPic = css`
   fill: currentColor;
   position: absolute;
   width: 2149.9px;
-  height: 970px;
+  height: 1000px;
   -webkit-transform: translateX(-15%);
   transform: translateX(-11.5%);
+  padding-top: -800px;
 `;
 const pageTitle = css`
   position: absolute;
-  width: -100%;
-  align-items: center;
+  width: -90%;
+  margin-top: 240px;
+  margin-left: 745px;
+`;
+const text1 = css`
+  color: white;
+  box-sizing: border-box;
+  border: 0 solid;
+  margin: auto;
+  text-align: center;
+  padding-top: 460px;
+  padding-left: 35px;
+  font-family: Inter, sans-serif;
+  line-height: 0.875;
+  font-weight: 300;
+  font-size: 1.25rem;
 `;
 
 function App() {
@@ -63,7 +78,10 @@ function App() {
             <div>
               <LogoIcon css={backgroundPic} />
             </div>
-            <div></div>
+            <div css={text1}>
+              <p>A private members only collective of</p>
+              <p>1,000 dedicated NFT collectors and artists.</p>
+            </div>
           </nav>
         </section>
       </div>
