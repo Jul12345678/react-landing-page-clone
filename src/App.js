@@ -37,10 +37,10 @@ const backgroundPic = css`
   z-index: -1;
   fill: currentColor;
   position: absolute;
-  width: 2300.2px;
+  width: 2149.9px;
   height: 970px;
   -webkit-transform: translateX(-15%);
-  transform: translateX(-15%);
+  transform: translateX(-11.5%);
 `;
 const pageTitle = css`
   position: absolute;
