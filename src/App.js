@@ -3,6 +3,7 @@ import './App.css';
 import { css } from '@emotion/react';
 import { ReactComponent as LogoIcon } from './images/bg.svg';
 import { ReactComponent as BrandIcon } from './images/brand.svg';
+import { ReactComponent as ProofPass } from './images/proof-pass.svg';
 
 const buttonStyle = css`
   position: absolute;
@@ -38,10 +39,10 @@ const backgroundPic = css`
   fill: currentColor;
   position: absolute;
   width: 2149.9px;
-  height: 1000px;
+  height: 3000px;
   -webkit-transform: translateX(-15%);
   transform: translateX(-11.5%);
-  padding-top: -800px;
+  padding-top: -8200px;
 `;
 const pageTitle = css`
   position: absolute;
@@ -59,9 +60,16 @@ const text1 = css`
   padding-left: 35px;
   font-family: Inter, sans-serif;
   line-height: 0.875;
-  font-weight: 300;
-  font-size: 1.25rem;
+  font-weight: 200;
+  font-size: 1.2rem;
 `;
+
+const proofCard = css`
+  margin-top: 290px;
+  transform: rotate(-18deg);
+  margin-left: 450px;
+`;
+const text2 = css``;
 
 function App() {
   return (
@@ -81,6 +89,12 @@ function App() {
             <div css={text1}>
               <p>A private members only collective of</p>
               <p>1,000 dedicated NFT collectors and artists.</p>
+            </div>
+            <div>
+              <ProofPass css={proofCard} />
+            </div>
+            <div css={text2}>
+              <h1>Proof Collective NFT</h1>
             </div>
           </nav>
         </section>
