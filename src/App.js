@@ -36,16 +36,9 @@ const buttonStyle = css`
 const backgroundPic = css`
   z-index: -1;
   fill: currentColor;
-  position: relative;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1903.2px;
+  position: absolute;
+  width: 2300.2px;
   height: 970px;
-  box-sizing: border-box;
-  object-fit: cover;
-  display: block;
-  margin: auto;
   -webkit-transform: translateX(-15%);
   transform: translateX(-15%);
 `;
