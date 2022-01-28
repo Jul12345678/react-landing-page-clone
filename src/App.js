@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import './App.css';
 import { css } from '@emotion/react';
+import React from 'react';
 import { ReactComponent as LogoIcon } from './images/bg.svg';
 import { ReactComponent as BrandIcon } from './images/brand.svg';
 import { ReactComponent as ProofPass } from './images/proof-pass.svg';
@@ -140,6 +141,9 @@ const text51 = css`
 const text61 = css`
   color: #a5b4fc;
 `;
+const imgOfSix = css`
+  // in App.css
+`;
 
 function App() {
   return (
@@ -201,6 +205,15 @@ function App() {
             <div css={text6}>
               <p>223.804</p>
               <p css={text61}>Member Owned NFTs</p>
+            </div>
+
+            <div css={imgOfSix}>
+              <img className="img1" src="/imagespng/logo1.png" alt="Image1" />
+              <img className="img2" src="/imagespng/logo2.png" alt="Image2" />
+              <img className="img3" src="/imagespng/logo3.png" alt="Image3" />
+              <img className="img4" src="/imagespng/logo4.png" alt="Image4" />
+              <img className="img5" src="/imagespng/logo5.png" alt="Image5" />
+              <img className="img6" src="/imagespng/logo6.png" alt="Image6" />
             </div>
           </nav>
         </section>
