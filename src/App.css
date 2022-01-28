@@ -42,7 +42,7 @@
   position: absolute;
   height: 170px;
   margin-left: 1307px;
-  margin-top: 450px;
+  margin-top: 410px;
 }
 
 .text511 {
@@ -76,7 +76,7 @@
   font-weight: 300px;
 }
 
-/* .body {
+/*.body {
   box-sizing: border-box;
   background: black;
   padding-right: 686.6px;
@@ -84,9 +84,8 @@
   margin-top: 164px;
   height: 100vh;
 } */
-
 * {
-  background-color: black;
+  background-color: rgba(8, 8, 13);
 }
 
 .text51 {
@@ -229,3 +228,10 @@
   margin-top: -40px;
   z-index: 2;
 }
+/* .imgBlack {
+  position: absolute;
+  width: 1903.4px;
+  margin-top: -934px;
+  z-index: -2;
+  opacity: 80%;
+} */

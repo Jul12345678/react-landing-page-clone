@@ -92,6 +92,7 @@ const text4 = css`
   margin: auto;
   text-align: center;
   margin-top: 235px;
+  margin-bottom: -10px;
 `;
 
 const text5 = css`
@@ -134,6 +135,7 @@ const buttonStyle2 = css`
 `;
 const text41 = css`
   color: #a5b4fc;
+  margin-top: -12px;
 `;
 
 const imgOfSix = css`
@@ -142,7 +144,7 @@ const imgOfSix = css`
 
 function App() {
   return (
-    <body>
+    <body className="body">
       <div>
         <div>
           <BrandIcon css={pageTitle} />
@@ -227,6 +229,7 @@ function App() {
               <p className="metaVerse">815</p>
               <p className="metaVerse2">MetaVerse</p>
             </div>
+            <div></div>
           </nav>
         </section>
       </div>
