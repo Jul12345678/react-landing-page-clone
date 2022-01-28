@@ -93,6 +93,54 @@ const text4 = css`
   margin-top: 235px;
 `;
 
+const text5 = css`
+  padding-left: 800px;
+  margin-top: 100px;
+`;
+
+const text6 = css`
+  padding-left: 1000px;
+  margin-top: -75px;
+`;
+
+const buttonStyle2 = css`
+  position: absolute;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-family: Poppins, sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 9999px;
+  gap: 0.75rem;
+  align-items: center;
+  display: flex;
+  text-decoration: inherit;
+  box-sizing: border-box;
+  border: 0 solid;
+  cursor: pointer;
+  font-weight: 300;
+  margin-left: 950px;
+  border-radius: 2500px;
+  background-color: blue;
+  margin-top: 20px;
+  font: 14px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #5777f6, #7f65f6, #a457f7);
+`;
+const text41 = css`
+  color: #a5b4fc;
+`;
+const text51 = css`
+  color: #a5b4fc;
+`;
+const text61 = css`
+  color: #a5b4fc;
+`;
+
 function App() {
   return (
     <body>
@@ -133,17 +181,26 @@ function App() {
               </p>
               <p>Collective members.</p>
             </div>
+            <div css={buttonStyle2}>View on opensea</div>
             <div css={text4}>
               <h1>Collective Intelligence</h1>
-              <p>
+              <p css={text41}>
                 Our members were early collectors of some of the most
                 sought-after NFT projects.
               </p>
-              <p>
+              <p css={text41}>
                 We believe in group bottoms-up-driven research. A collective
                 working together is
               </p>
-              <p>stronger than any single member.</p>
+              <p css={text41}>stronger than any single member.</p>
+            </div>
+            <div css={text5}>
+              <p>1,000</p>
+              <p css={text51}>Membership NFTs</p>
+            </div>
+            <div css={text6}>
+              <p>223.804</p>
+              <p css={text61}>Member Owned NFTs</p>
             </div>
           </nav>
         </section>
