@@ -135,20 +135,7 @@ const buttonStyle2 = css`
 const text41 = css`
   color: #a5b4fc;
 `;
-const text51 = css`
-  color: #a5b4fc;
-  margin-left: -100px;
-  padding-top: 00px;
-  font-family: Inter, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-`;
-const text61 = css`
-  color: #a5b4fc;
-  font-family: Inter, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-`;
+
 const imgOfSix = css`
   // in App.css
 `;
@@ -213,7 +200,7 @@ function App() {
               </div>
               <div css={text6}>
                 <p className="text611">223.804</p>
-                <p css={text61}>Member Owned NFTs</p>
+                <p className="text61">Member Owned NFTs</p>
               </div>
               <div className="body" />
 
@@ -225,6 +212,20 @@ function App() {
                 <img className="img5" src="/imagespng/logo5.png" alt="Image5" />
                 <img className="img6" src="/imagespng/logo6.png" alt="Image6" />
               </div>
+            </div>
+            <div>
+              <p className="cryptoPunks">306</p>
+              <p className="cryptoPunks2">CryptoPunks</p>
+              <p className="boredApes">370</p>
+              <p className="boredApes2">Bored Apes</p>
+              <p className="meebits">766</p>
+              <p className="meebits2">Meebits</p>
+              <p className="artBlocks">5.188</p>
+              <p className="artBlocks2">Art Blocks</p>
+              <p className="superRare">590</p>
+              <p className="superRare2">SuperRare 1:1 NFTs</p>
+              <p className="metaVerse">815</p>
+              <p className="metaVerse2">MetaVerse</p>
             </div>
           </nav>
         </section>

@@ -3,40 +3,44 @@
   height: 170px;
   margin-left: 520px;
   margin-top: 100px;
+  z-index: 5;
 }
 
 .img2 {
   position: absolute;
   height: 170px;
-  margin-left: 850px;
+  margin-left: 910px;
   margin-top: 100px;
+  z-index: 3;
 }
 
 .img3 {
   position: absolute;
   height: 170px;
-  margin-left: 1180px;
+  margin-left: 1307px;
   margin-top: 100px;
+  z-index: 1;
 }
 
 .img4 {
   position: absolute;
   height: 170px;
-  margin-left: 520px;
-  margin-top: 450px;
+  margin-left: 522px;
+  margin-top: 405px;
+  z-index: 5;
 }
 
 .img5 {
   position: absolute;
   height: 170px;
-  margin-left: 850px;
-  margin-top: 450px;
+  margin-left: 910px;
+  margin-top: 405px;
 }
 
 .img6 {
   position: absolute;
   height: 170px;
-  margin-left: 1180px;
+  margin-left: 1307px;
   margin-top: 450px;
 }
 
@@ -91,4 +95,136 @@
   font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 300;
+}
+.text611 {
+  padding-top: 50px;
+}
+.text61 {
+  color: #a5b4fc;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 300px;
+  margin-top: -50px;
+}
+
+.cryptoPunks {
+  color: #fecaca;
+  font-family: Inter, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  padding-top: 110px;
+  padding-left: 440px;
+}
+
+.cryptoPunks2 {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-left: 440px;
+  position: absolute;
+  margin-top: -35px;
+  z-index: 6;
+}
+
+.boredApes {
+  font-family: Inter, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  margin-top: -105px;
+  color: #d1b4fe;
+  padding-left: 830px;
+}
+.boredApes2 {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-left: 830px;
+  position: absolute;
+  margin-top: -35px;
+  z-index: 4;
+}
+
+.meebits {
+  color: #93c5fd;
+  font-family: Inter, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  margin-top: -100px;
+  padding-left: 1223px;
+}
+
+.meebits2 {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-left: 1223px;
+  position: absolute;
+  margin-top: -35px;
+  z-index: 2;
+}
+
+.artBlocks {
+  color: #fecaca;
+  font-family: Inter, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  padding-top: 135px;
+  z-index: 6;
+  padding-left: 440px;
+  position: absolute;
+}
+.artBlocks2 {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-left: 440px;
+  position: absolute;
+  margin-top: 250px;
+  z-index: 6;
+}
+
+.superRare {
+  color: #d1b4fe;
+  font-family: Inter, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  padding-top: 135px;
+  z-index: 4;
+  padding-left: 830px;
+  position: absolute;
+}
+
+.superRare2 {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-left: 830px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 250px;
+}
+
+.metaVerse {
+  color: #93c5fd;
+  font-family: Inter, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  padding-top: 185px;
+  padding-left: 1223px;
+}
+
+.metaVerse2 {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-left: 1223px;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
 }
