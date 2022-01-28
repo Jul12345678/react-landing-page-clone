@@ -35,6 +35,7 @@
   height: 170px;
   margin-left: 910px;
   margin-top: 405px;
+  z-index: 3;
 }
 
 .img6 {
