@@ -137,9 +137,17 @@ const text41 = css`
 `;
 const text51 = css`
   color: #a5b4fc;
+  margin-left: -100px;
+  padding-top: 00px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 `;
 const text61 = css`
   color: #a5b4fc;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 `;
 const imgOfSix = css`
   // in App.css
@@ -186,34 +194,37 @@ function App() {
               <p>Collective members.</p>
             </div>
             <div css={buttonStyle2}>View on opensea</div>
-            <div css={text4}>
-              <h1>Collective Intelligence</h1>
-              <p css={text41}>
-                Our members were early collectors of some of the most
-                sought-after NFT projects.
-              </p>
-              <p css={text41}>
-                We believe in group bottoms-up-driven research. A collective
-                working together is
-              </p>
-              <p css={text41}>stronger than any single member.</p>
-            </div>
-            <div css={text5}>
-              <p>1,000</p>
-              <p css={text51}>Membership NFTs</p>
-            </div>
-            <div css={text6}>
-              <p>223.804</p>
-              <p css={text61}>Member Owned NFTs</p>
-            </div>
+            <div className="body">
+              <div css={text4}>
+                <h1 className="CollectiveIntHeader">Collective Intelligence</h1>
+                <p css={text41}>
+                  Our members were early collectors of some of the most
+                  sought-after NFT projects.
+                </p>
+                <p css={text41}>
+                  We believe in group bottoms-up-driven research. A collective
+                  working together is
+                </p>
+                <p css={text41}>stronger than any single member.</p>
+              </div>
+              <div css={text5}>
+                <p className="text511">1,000</p>
+                <p className="text51">Membership NFTs</p>
+              </div>
+              <div css={text6}>
+                <p className="text611">223.804</p>
+                <p css={text61}>Member Owned NFTs</p>
+              </div>
+              <div className="body" />
 
-            <div css={imgOfSix}>
-              <img className="img1" src="/imagespng/logo1.png" alt="Image1" />
-              <img className="img2" src="/imagespng/logo2.png" alt="Image2" />
-              <img className="img3" src="/imagespng/logo3.png" alt="Image3" />
-              <img className="img4" src="/imagespng/logo4.png" alt="Image4" />
-              <img className="img5" src="/imagespng/logo5.png" alt="Image5" />
-              <img className="img6" src="/imagespng/logo6.png" alt="Image6" />
+              <div css={imgOfSix}>
+                <img className="img1" src="/imagespng/logo1.png" alt="Image1" />
+                <img className="img2" src="/imagespng/logo2.png" alt="Image2" />
+                <img className="img3" src="/imagespng/logo3.png" alt="Image3" />
+                <img className="img4" src="/imagespng/logo4.png" alt="Image4" />
+                <img className="img5" src="/imagespng/logo5.png" alt="Image5" />
+                <img className="img6" src="/imagespng/logo6.png" alt="Image6" />
+              </div>
             </div>
           </nav>
         </section>
