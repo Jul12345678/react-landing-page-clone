@@ -4,6 +4,7 @@ import { css } from '@emotion/react';
 import React from 'react';
 import { ReactComponent as LogoIcon } from './images/bg.svg';
 import { ReactComponent as BrandIcon } from './images/brand.svg';
+import { ReactComponent as ChatIcon } from './images/chat-icon.svg';
 import { ReactComponent as ProofPass } from './images/proof-pass.svg';
 
 const buttonStyle = css`
@@ -141,7 +142,62 @@ const text41 = css`
 const imgOfSix = css`
   // in App.css
 `;
+const chatIcon = css`
+  position: absolute;
+  margin-left: 440px;
+  padding-top: 200px;
+`;
+const endPart1 = css`
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 580px;
+  padding-top: 190px;
+  width: 100%;
+`;
+const endPart2 = css`
+  color: rgb(165, 180, 252);
+  position: absolute;
+  margin-left: 580px;
+  margin-top: -10px;
+`;
 
+const endPart3 = css`
+  color: rgb(165, 180, 252);
+  position: absolute;
+  margin-left: 580px;
+`;
+
+const buttonStyle3 = css`
+  position: absolute;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-family: Poppins, sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 9999px;
+  gap: 0.75rem;
+  align-items: center;
+  display: flex;
+  text-decoration: inherit;
+  box-sizing: border-box;
+  border: 0 solid;
+  cursor: pointer;
+  font-weight: 300;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255);
+  top: 0;
+  right: 0;
+  border-radius: 2500px;
+  background-color: blue;
+  margin-top: 2360px;
+  margin-right: 490px;
+`;
 function App() {
   return (
     <body className="body">
@@ -229,7 +285,18 @@ function App() {
               <p className="metaVerse">815</p>
               <p className="metaVerse2">MetaVerse</p>
             </div>
-            <div></div>
+            <div>
+              <ChatIcon css={chatIcon} />
+            </div>
+            <div>
+              <p css={endPart1}>Membership Entrance</p>
+              <p css={endPart2}>
+                Already hold the PROOF Collective NFT? Authenticate your NFT,
+                and jump into
+              </p>
+              <p css={endPart3}>the conversation!</p>
+            </div>
+            <div css={buttonStyle3}>Member Access</div>
           </nav>
         </section>
       </div>
